@@ -15,7 +15,6 @@ Instead of navigating through a traditional portfolio, visitors can simply ask q
 The system retrieves the most relevant information from Farhan's personal knowledge base and uses Google's Gemini models to generate a natural response.
 
 ---
-
 ## ✨ Features
 
 ### 🤖 Conversational Portfolio
