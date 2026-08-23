@@ -121,6 +121,11 @@ input {
     display: inline-block;
 }
 
+/* Push single GitHub buttons to the right */
+.project-links .project-github:only-child {
+    margin-left: auto;
+}
+
 
 .project-github a,
 .project-live a {
