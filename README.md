@@ -65,6 +65,7 @@ The cache is automatically invalidated when the underlying personal data changes
 
 # 🏗️ Architecture
 
+
 The project follows a relatively simple RAG architecture:
 
 ```text
