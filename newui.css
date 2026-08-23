@@ -1465,10 +1465,8 @@ input {
 
 
 .project-content {
-
     margin-top: 120px;
-    position: relative
-
+    padding-bottom: 90px;
 }
 
 
@@ -2810,12 +2808,10 @@ footer {
     }
 
 
-    .project-content {
-
-        margin-top: 80px;
-        position: relative
-
-    }
+   .project-content {
+    margin-top: 120px;
+    padding-bottom: 90px;
+}
 
 
     /* EXPERIENCE */
