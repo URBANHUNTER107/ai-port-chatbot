@@ -11,8 +11,8 @@
 # PRIVATE / PERSONAL DATA
 # =========================================================
 
-data/personal_data.json
-data/embeddings_cache.pkl
+# data/personal_data.json
+# data/embeddings_cache.pkl
 
 # Allow safe example files
 !.env.example

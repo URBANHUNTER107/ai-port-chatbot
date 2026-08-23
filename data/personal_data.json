@@ -1,0 +1,316 @@
+{
+  "about_me": {
+    "summary": "A quick hello from Farhan's profile.",
+    "primary_areas": [
+      "Data Analytics",
+      "SQL",
+      "Python",
+      "Power BI",
+      "Business Intelligence",
+      "Developer Relations",
+      "Developer Communities",
+      "Machine Learning"
+    ],
+    "current_roles": [
+      "GDGoC Lead at DY Patil International University, Akurdi, Pune"
+    ],
+    "notable_strengths": [
+      "SQL and data analysis",
+      "Python-based data analysis",
+      "Power BI and dashboard development",
+      "Developer community building",
+      "Event hosting and anchoring",
+      "Public speaking",
+      "Community outreach",
+      "Technical event management"
+    ]
+  },
+  "personal_information": {
+    "name": "Mohd Farhan Abbas",
+    "email": "mohdabbasfarhan@gmail.com",
+    "location": "Pune, Maharashtra, India",
+    "Birthdate": "2006-06-06"
+  },
+  "education": {
+    "degree": {
+      "institution": "DY Patil International University, Akurdi, Pune",
+      "degree": "B.Tech in Computer Science and Engineering",
+      "duration": "2024-2028"
+    },
+    "schooling": {
+      "intermediate": {
+        "institution": "Little Flower House, KKM, Varanasi",
+        "qualification": "Intermediate",
+        "year": "2023-2024"
+      },
+      "high_school": {
+        "institution": "St. Mary's Convent School, Sonatalab, Varanasi",
+        "qualification": "High School",
+        "year": "2021-2022"
+      }
+    },
+    "semester_wise_cgpa": {
+      "semester_1": 8.16,
+      "semester_2": 7.78,
+      "semester_3": 7.95,
+      "semester_4": 7.65
+    },
+    "overall_cgpa": 7.83
+  },
+  "skills": {
+    "languages": [
+      "Python",
+      "SQL"
+    ],
+    "databases": [
+      "MySQL",
+      "PostgreSQL",
+      "MS SQL Server"
+    ],
+    "data_analysis": [
+      "Pandas",
+      "NumPy",
+      "Exploratory Data Analysis",
+      "EDA",
+      "Data Cleaning",
+      "Data Transformation"
+    ],
+    "business_intelligence_and_data_visualization": [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Dashboard Development",
+      "KPI Tracking",
+      "Statistical Analysis",
+      "Data Visualization"
+    ],
+    "tools": [
+      "Microsoft Excel",
+      "Excel Pivot Tables",
+      "Excel VLOOKUP",
+      "Jupyter Notebook",
+      "GitHub",
+      "VS Code",
+      "Google Sheets"
+    ],
+    "concepts": [
+      "ETL",
+      "Data Pipelines",
+      "Data Modeling",
+      "SQL Optimization",
+      "Machine Learning",
+      "Window Functions",
+      "Data Warehousing",
+      "Object-Oriented Programming",
+      "OOP",
+      "Business Intelligence"
+    ]
+  },
+  
+  "experience": {
+    "developer_relations_engineer_intern": {
+      "company": "ProjectX (YC P26)",
+      "product": "InfinityOS",
+      "role": "Developer Relations Engineer Intern",
+      "start_date": "March 2026",
+      "end_date": "August 2026",
+      "work_mode": "Remote",
+      "stipends": "I was paid good but do not want to disclose publicly.",
+      "responsibilities": [
+        "Driving developer community growth for InfinityOS, a browser-based platform enabling GPU-heavy tools such as Blender, Android Studio, and DaVinci Resolve with zero local setup.",
+        "Analyzing developer engagement metrics and tracking KPIs to generate insights for improving community engagement.",
+        "Building and managing developer relationships across YouTube, Twitter/X, Discord, and Reddit.",
+        "Executing outreach campaigns targeting 50+ micro-influencers and developer communities.",
+        "Representing ProjectX at college hackathons, conferences, and meetups across Pune.",
+        "Gathering product feedback and developer insights through interactions with developers and communities.",
+        "Left the Y Combinator backed startup after 6 months of internship due to personal reasons and left on good terms, but I am still in touch with the team and will be helping them in the future."
+      ],
+      "achievements_in_role": [
+        "Improved community engagement by 40% through analysis of developer engagement metrics and KPI-driven insights.",
+        "Generated 6000+ new developer signups through developer outreach campaigns.",
+        "Conducted outreach targeting 50+ micro-influencers and developer communities."
+      ]
+    }
+  },
+  "leadership": {
+    "google_developer_groups_on_campus_lead": {
+      "organization": "Google Developer Groups on Campus",
+      "role": "GDGoC Lead",
+      "institution": "DY Patil International University",
+      "start_date": "August 2025",
+      "end_date": "Present",
+      "location": "Pune",
+      "description": [
+        "Selected as the GDGoC Lead for DYPIU in second year.",
+        "Represented the university in Google's global developer network.",
+        "Led a core team of 35+ members.",
+        "Planned and executed 10+ university-level technology events and workshops.",
+        "Reached 500+ students through community events and initiatives.",
+        "Applied data analysis and reporting to track event performance metrics.",
+        "Generated insights to improve engagement and outreach strategies."
+      ]
+    }
+  },
+  "achievements": {
+    "girl_script_summer_of_code": {
+      "program": "GirlScript Summer of Code 2025",
+      "role": "Open Source Contributor",
+      "duration": "July 2025 - September 2025",
+      "description": [
+        "Selected as a contributor for GirlScript Summer of Code 2025.",
+        "Participated in an open-source program with 30,000+ participants.",
+        "Contributed to open-source data-related projects using SQL and Python.",
+        "Collaborated with project maintainers in a structured 3-month program."
+      ]
+    },
+    "google_developer_student_club_lead": {
+      "organization": "Google Developer Student Club",
+      "role": "Lead",
+      "institution": "DY Patil International University",
+      "duration": "August 2025 - Present",
+      "description": [
+        "Selected as the Lead for Google Developer Student Club at DYPIU.",
+        "Represented the university in Google's global developer network.",
+        "Led a core team of 30+ members.",
+        "Planned and executed 8+ university-level technology events and workshops.",
+        "Reached 400+ students through community events and initiatives."
+      ]
+    }
+  },
+  "extracurricular_activities": {
+    "google_developers_groups_on_campus_wow_2026": {
+      "event": "Google Developers Groups on Campus WoW 2026",
+      "role": "Volunteer",
+      "organization": "Google Developer Groups on Campus",
+      "year": 2026,
+      "description": [
+        "Volunteered at Google Developers Groups on Campus WoW 2026.",
+        "Supported event coordination and execution as part of the volunteer team.",
+        "Contributed to the organization and execution of a large-scale developer community event."
+      ]
+    },
+    "devfest_pune_2025": {
+      "event": "DevFest Pune 2025",
+      "role": "Anchor",
+      "organization": "Google Developer Groups Pune",
+      "year": 2025,
+      "description": [
+        "Anchored DevFest Pune 2025.",
+        "Hosted and engaged with the audience during the developer community event.",
+        "Participated as an active volunteer for Google Developer Groups Pune."
+      ],
+      "post": "https://lnkd.in/p/dDgvqqSC"
+    },
+    "google_developer_groups_pune": {
+      "organization": "Google Developer Groups Pune",
+      "role": "Active Volunteer",
+      "description": [
+        "Actively volunteered with Google Developer Groups Pune.",
+        "Contributed to developer community activities and events."
+      ]
+    },
+    "build_with_ai_pune": {
+      "event": "Build With AI Pune",
+      "role": "Anchor",
+      "organizers": [
+        "Google Developer Groups Pune",
+        "Deutsche Bank"
+      ],
+      "description": [
+        "Anchored Build With AI Pune.",
+        "Hosted and engaged with attendees during the event.",
+        "Contributed to the developer community event organized by GDG Pune and Deutsche Bank."
+      ],
+      "post": "https://lnkd.in/p/d_sb88Av"
+    }
+  },
+  "certifications": {
+    "data_mining_in_python": {
+      "name": "Data Mining in Python",
+      "provider": "University of Michigan",
+      "platform": "Coursera",
+      "date": "April 2026"
+    }
+  },
+  "projects": {
+    "inventory_and_supply_chain_management_dashboard": {
+      "name": "Inventory & Supply Chain Management Dashboard",
+      "technologies": [
+        "Python",
+        "Streamlit",
+        "MySQL",
+        "Pandas"
+      ],
+      "description": [
+        "Built an end-to-end interactive supply chain dashboard using Streamlit and MySQL.",
+        "Enabled inventory tracking, supplier management, and reorder monitoring through a relational database system.",
+        "Designed a normalized relational database schema.",
+        "Wrote optimized SQL queries, joins, and views to consolidate inventory and shipment data for business reporting.",
+        "Implemented CRUD operations using Python and MySQL Connector.",
+        "Supported dynamic data retrieval and operational workflow automation."
+      ],
+      "github": "https://github.com/URBANHUNTER107/MySQL-Operations-Dashboard-Streamlit"
+    },
+    "credit_card_spending_habits_sql_analysis": {
+      "name": "Credit Card Spending Habits in India - SQL Data Analysis",
+      "type": "Data Analyst Project",
+      "technologies": [
+        "SQL",
+        "MS SQL Server",
+        "PostgreSQL"
+      ],
+      "dataset": {
+        "source": "Kaggle",
+        "transactions": 26052,
+        "cities": 986,
+        "duration": "2 years"
+      },
+      "description": [
+        "Analyzed the Credit Card Spending Habits in India dataset using SQL to uncover trends in customer behavior and spending patterns.",
+        "Built an end-to-end SQL data analysis pipeline involving data cleaning, transformation, aggregation, and complex queries.",
+        "Extracted business insights and KPIs from transactional data.",
+        "Identified 5 critical insights related to spending patterns, top cities, peak months, and category preferences.",
+        "Translated transactional data into actionable recommendations for targeted marketing strategies."
+      ],
+      "github": "https://github.com/URBANHUNTER107/SQL-Data-Analysis-Portfolio-Project"
+    },
+    "zomato_data_analysis": {
+      "name": "Zomato Data Analysis",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Data Analysis",
+        "Data Visualization"
+      ],
+      "description": [
+        "Performed data analysis on Zomato restaurant data.",
+        "Used Python-based data analysis techniques to explore restaurant-related patterns.",
+        "Performed data cleaning, exploration, and analysis to derive useful insights."
+      ],
+      "github": "https://github.com/URBANHUNTER107/ZomatoDataAnalysisProject"
+    },
+    "customer_churn_prediction": {
+      "name": "Customer Churn Prediction",
+      "type": "Machine Learning Project",
+      "technologies": [
+        "Python",
+        "Machine Learning"
+      ],
+      "description": [
+        "Built a machine learning project focused on predicting customer churn.",
+        "Applied data preprocessing and machine learning techniques to identify customers who may be likely to churn."
+      ],
+      "github": "https://github.com/URBANHUNTER107/CodSoft/tree/main/CustomerChurnPrediction"
+    }
+  },
+  "social_links": {
+    "instagram": "https://www.instagram.com/abbas_farhere/",
+    "linkedin": "https://www.linkedin.com/in/mohd-farhan-abbas-704a2b2a8",
+    "leetcode": "https://leetcode.com/u/MoFarhanAbbas/",
+    "github": "https://github.com/URBANHUNTER107",
+    "data_analyst_resume": "https://drive.google.com/file/d/1zHhmck51HAi5Qop9ukqoYWRysthWyOa8/view?usp=drive_link",
+    "build_with_ai_pune_post": "https://lnkd.in/p/d_sb88Av",
+    "devfest_pune_2025_post": "https://lnkd.in/p/dDgvqqSC"
+  }
+}
