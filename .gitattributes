@@ -1,0 +1,2 @@
+data/personal_data.json text eol=lf
+data/embeddings_cache.pkl binary

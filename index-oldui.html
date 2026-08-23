@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ask Farhan AI</title>
+    <style>
+        /* Basic page styling - centers everything, dark theme */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding-top: 40px;
+        }
+
+        /* The whole chat box container */
+        #chat-container {
+            width: 500px;
+        }
+
+        /* Where messages get shown */
+        #messages {
+            border: 1px solid #444;
+            border-radius: 8px;
+            padding: 15px;
+            height: 400px;
+            overflow-y: auto;   /* scrolls if too many messages */
+            margin-bottom: 15px;
+            background-color: #2a2a2a;
+        }
+
+        /* One chat bubble */
+        .message {
+            margin-bottom: 12px;
+            padding: 10px;
+            border-radius: 8px;
+            line-height: 1.4;
+        }
+
+        /* Styling for the user's own messages - aligned right, blue */
+        .user-message {
+            background-color: #0b5fff;
+            text-align: right;
+        }
+
+        /* Styling for the AI's replies - aligned left, gray */
+        .ai-message {
+            background-color: #3a3a3a;
+            text-align: left;
+        }
+
+        /* The input box and button row */
+        #input-row {
+            display: flex;
+        }
+
+        #question-input {
+            flex: 1;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            margin-right: 8px;
+        }
+
+        #send-button {
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            background-color: #0b5fff;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="chat-container">
+        <h2>Ask Farhan AI</h2>
+
+        <div id="messages"></div>
+
+        <div id="input-row">
+            <input type="text" id="question-input" placeholder="Ask something about Farhan...">
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+<script>
+        const messagesBox = document.getElementById("messages");
+        const questionInput = document.getElementById("question-input");
+        const sendButton = document.getElementById("send-button");
+
+        function addMessage(text, sender) {
+            const messageDiv = document.createElement("div");
+            messageDiv.classList.add("message");
+            messageDiv.classList.add(sender === "user" ? "user-message" : "ai-message");
+            messageDiv.innerText = text;
+
+            messagesBox.appendChild(messageDiv);
+            messagesBox.scrollTop = messagesBox.scrollHeight;
+        }
+
+        // NEW: runs once when the page first loads. Fetches past
+        // messages from MongoDB and displays them, so refreshing
+        // the page doesn't lose your conversation anymore.
+        async function loadHistory() {
+            try {
+                const response = await fetch("/history");
+                const messages = await response.json();
+
+                // for each saved message, show both the question
+                // (as a user bubble) and the answer (as an AI bubble)
+                messages.forEach((message) => {
+                    addMessage(message.question, "user");
+                    addMessage(message.answer, "ai");
+                });
+
+            } catch (error) {
+                console.error("Could not load chat history:", error);
+            }
+        }
+
+        async function sendQuestion() {
+            const question = questionInput.value.trim();
+
+            if (question === "") {
+                return;
+            }
+
+            addMessage(question, "user");
+            questionInput.value = "";
+
+            addMessage("Thinking...", "ai");
+
+            try {
+                const response = await fetch("/ask", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ question: question })
+                });
+
+                const data = await response.json();
+
+                messagesBox.removeChild(messagesBox.lastChild);
+
+                addMessage(data.reply, "ai");
+
+            } catch (error) {
+                messagesBox.removeChild(messagesBox.lastChild);
+                addMessage("Something went wrong. Please try again.", "ai");
+            }
+        }
+
+        sendButton.addEventListener("click", sendQuestion);
+
+        questionInput.addEventListener("keypress", (event) => {
+            if (event.key === "Enter") {
+                sendQuestion();
+            }
+        });
+
+        // NEW: actually call loadHistory() as soon as the page loads
+        loadHistory();
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+[project]
+name = "aiportfolio-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+
+dependencies = [
+    "google-genai>=2.18.0",
+    "numpy>=2.5.2",
+    "pymongo>=4.17.0",
+    "python-dotenv>=1.2.2",
+]
+

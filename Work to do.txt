@@ -1,0 +1,14 @@
+ 
+1) Add that friend feature, to roast a friend but more importantly understand if its a friend.
+----like ask gpt to give a long prompt to tell LLM which words like gay, bisexual, fuck will be 
+used by a friend only and if any of these words come on the chat htne the llm should start roasting 
+the user.
+
+2) Create another folder for aiportfolio_project and take it out of AI course and make it public.
+---- Look out for .env files please                                                                       DONE
+
+3) Make changes to the website information. Add github links of different projects.
+
+4) Add mongoDB to this project for loading history.
+
+5) Add that feature of remembering the user using the browser and device.

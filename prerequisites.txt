@@ -1,0 +1,254 @@
+Step 1 — Create Your Candidate Profile
+
+What to do
+
+Create all your information in a structured format.
+
+Include things like:
+
+    Name
+    Education
+    CGPA
+    Skills
+    Projects
+    Experience
+    Achievements
+    Certifications
+    Social links
+
+
+Tech
+
+JSON
+(Optional) Pydantic for validation
+
+---
+
+Step 2 — Choose an LLM
+
+What to do
+
+Pick an LLM API that will answer questions.
+
+ Tech
+
+Groq API (Free)
+
+Use the same API you've already used in previous lectures.
+
+---
+Step 3 — Write the System Prompt
+
+What to do
+
+Teach the AI who it is.
+
+Your prompt should define:
+
+    You are the AI representative of this candidate.
+    Answer only using the provided information.
+    Never hallucinate.
+    If information is missing, clearly say you don't know.
+    Be honest and professional.
+
+
+Tech
+
+ Prompt Engineering
+
+---
+
+Step 4 — Build the Backend API
+
+What to do
+
+Create an API that:
+
+    Receives a user's question
+    Loads your candidate data
+    Sends everything to the LLM
+    Streams back the response
+
+
+Tech
+
+    FastAPI
+    Python
+    Streaming Responses
+
+
+---
+
+ Step 5 — Build the Chat UI
+
+ What to do
+
+Create a website similar to ChatGPT.
+
+Features:
+
+    Chat window
+    Input box
+    Send button
+    Streaming text
+    Auto-scroll
+    Conversation history
+
+
+Tech
+
+    React
+    JavaScript
+    CSS
+
+
+---
+
+Step 6 — Connect Frontend & Backend
+
+What to do
+
+When the user types:
+
+Tell me about this candidate.
+
+The frontend should call your backend.
+
+The backend should call the LLM.
+
+The response should stream back to the frontend.
+
+Tech
+
+    Fetch API
+    Streaming
+
+
+---
+
+Step 7 — Add Memory
+
+What to do
+
+The AI should remember previous messages.
+
+Example:
+
+User: Tell me about his projects.
+
+Later...
+
+User: Which one was the hardest?
+
+The AI should understand what "one" refers to.
+
+Tech
+
+Conversation History
+
+---
+
+ Step 8 — Job Description Matching
+
+ What to do
+
+Allow HR to paste a Job Description.
+
+The AI should answer questions like:
+
+    Is this candidate suitable?
+    What skills are missing?
+    What are the candidate's strengths?
+    Should we interview this person?
+
+
+Tech
+
+    Prompt Engineering
+
+Optional: Structured JSON Output using Pydantic
+
+---
+
+Step 9 — Deploy the Backend
+
+What to do
+
+Host your Python API online.
+
+Free Platforms
+
+    Render
+    Koyeb
+    Railway (if the free tier is available)
+
+
+---
+
+Step 10 — Deploy the Frontend
+
+What to do
+
+Host your React website.
+
+ Free Platform
+
+Vercel
+
+---
+
+Step 11 — Push Everything to GitHub
+
+What to do
+
+Upload your project.
+
+Your portfolio should include:
+
+    GitHub Repository
+    Live Website
+    README
+    Screenshots
+
+
+Platform
+
+    GitHub
+
+
+---
+
+Step 12 — Final Polish
+
+Add small features that improve the user experience:
+
+    Typing animation
+    Dark mode
+    Enter to send
+    Loading indicator
+    Mobile responsiveness
+    Clear chat button
+    Copy response button
+
+
+These small touches can make the project feel much more polished and professional.
+
+---
+
+⭐ Bonus Challenges (Optional)
+
+If you finish early, try adding:
+
+    Upload a new resume without changing code.
+    Voice input (Speech-to-Text).
+    AI speaks its answers (Text-to-Speech).
+    Generate interview questions based on the resume.
+    Give a suitability score (0–100%) for a pasted Job Description.
+    Export the chat as a PDF.
+    "Why should we hire this candidate?" mode.
+    Multilingual support (English/Hindi).
+
+Objective
+
+This project is designed to combine everything you've learned so far—Prompt Engineering, JSON, 
+Pydantic, Streaming, React, and Deployment—into one real-world AI application.
