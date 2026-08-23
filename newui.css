@@ -103,12 +103,10 @@ input {
 .project-links {
     position: absolute;
 
-    /* Keep buttons at the same vertical level */
-    bottom: 56px;
+    bottom: 55px;
 
-    /* Make the links span the card */
-    left: 28px;
-    right: 28px;
+    left: 25px;
+    right: 25px;
 
     display: flex;
     align-items: center;
