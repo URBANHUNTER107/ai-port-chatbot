@@ -7,7 +7,7 @@ the user.
 2) Create another folder for aiportfolio_project and take it out of AI course and make it public.
 ---- Look out for .env files please                                                                       DONE
 
-3) Make changes to the website information. Add github links of different projects.
+3) Make changes to the website information. Add github links of different projects.                       DONE
 
 4) Add mongoDB to this project for loading history.
 

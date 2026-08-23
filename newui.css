@@ -96,55 +96,80 @@ input {
 
 }
 
-/* Github link for projects
-*/
+/* =========================================================
+   PROJECT LINKS
+   ========================================================= */
 
-.project-github {
+.project-links {
+    position: absolute;
+
+    /* Keep buttons at the same vertical level */
+    bottom: 56px;
+
+    /* Make the links span the card */
+    left: 28px;
+    right: 28px;
+
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 14px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.project-github a {
-    display: inline-flex;
+
+/* Individual link */
+
+.project-github,
+.project-live {
+    display: inline-block;
+}
+
+
+.project-github a,
+.project-live a {
+    display: flex;
     align-items: center;
     gap: 8px;
 
-    color: #f5f3eb;
+    padding: 9px 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
     text-decoration: none;
 
-    font-family: inherit;
-    font-size: 11px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    color: inherit;
 
-    border: 1px solid rgba(245, 243, 235, 0.25);
-    padding: 8px 11px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 
     transition:
         background-color 0.2s ease,
-        color 0.2s ease,
         border-color 0.2s ease;
 }
 
-.project-github a:hover {
-    background-color: #fff200;
-    color: #111;
-    border-color: #fff200;
-}
 
-.project-github-arrow {
-    color: #fff200;
+/* Arrow */
+
+.project-link-arrow {
     font-size: 14px;
-    line-height: 1;
-    transition: color 0.2s ease, transform 0.2s ease;
+
+    transition:
+        transform 0.2s ease;
 }
 
-.project-github a:hover .project-github-arrow {
-    color: #111;
-    transform: translate(2px, -2px);
+
+/* Hover */
+
+.project-github a:hover,
+.project-live a:hover {
+    border-color: #fff;
 }
 
+
+.project-github a:hover .project-link-arrow,
+.project-live a:hover .project-link-arrow {
+    transform: translate(3px, -3px);
+}
 
 /* ============================================================
    BLUEPRINT BACKGROUND
@@ -1444,6 +1469,7 @@ input {
 .project-content {
 
     margin-top: 120px;
+    position: relative
 
 }
 
@@ -2789,6 +2815,7 @@ footer {
     .project-content {
 
         margin-top: 80px;
+        position: relative
 
     }
 
